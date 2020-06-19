@@ -13,7 +13,8 @@
         {% if new_year %}
           <h1>Yes! Happy New Year</h1>
         {% else %}
-           <h1>No</h1>
+        <h1><a href="{{ url_for('wishes')  }}">No</a></h1>
+
         {% endif %}
 </body>
 </html>
